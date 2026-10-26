@@ -1,1 +1,1 @@
-# This is my demo site
+# This is my simple site with HTML & CSS

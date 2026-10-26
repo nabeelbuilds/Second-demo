@@ -3,11 +3,341 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Devfolio — Modern Developer</title>
+    <meta
+        name="description"
+        content="A modern one-page developer portfolio built with HTML and CSS."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>HI Am Nabeel Ahmad</h1>
-    <button>Explore</button>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span>&lt;</span>dev<span>/&gt;</span>
+        </a>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-btn">Let's Talk</a>
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    <span class="status"></span>
+                    Available for projects
+                </div>
+
+                <h1>
+                    Building digital
+                    <span>experiences</span>
+                    that matter.
+                </h1>
+
+                <p>
+                    I'm a frontend developer focused on creating clean,
+                    responsive and user-friendly websites with modern
+                    technologies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="primary-btn">
+                        View My Work →
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Contact Me
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="code-card">
+
+                <div class="window-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="code">
+                    <p>
+                        <span class="purple">const</span>
+                        developer =
+                        <span class="yellow">{</span>
+                    </p>
+
+                    <p class="indent">
+                        name:
+                        <span class="green">'Alex Morgan'</span>,
+                    </p>
+
+                    <p class="indent">
+                        role:
+                        <span class="green">'Frontend Developer'</span>,
+                    </p>
+
+                    <p class="indent">
+                        skills:
+                        <span class="green">['HTML', 'CSS', 'JS']</span>
+                    </p>
+
+                    <p>
+                        <span class="yellow">}</span>;
+                    </p>
+
+                    <br>
+
+                    <p>
+                        <span class="purple">console</span>.
+                        <span class="blue">log</span>(
+                        <span class="green">'Hello World!'</span>
+                        );
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section">
+
+            <div class="section-heading">
+                <span>01</span>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div>
+                    <h3>
+                        Turning ideas into
+                        <span>beautiful websites.</span>
+                    </h3>
+                </div>
+
+                <div>
+                    <p>
+                        I enjoy transforming ideas and designs into fast,
+                        accessible and responsive websites. My focus is on
+                        writing clean code and creating experiences that
+                        look great on every screen.
+                    </p>
+
+                    <p>
+                        Whether it's a landing page, portfolio or web
+                        application, I aim to keep things simple,
+                        functional and visually polished.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+
+            <div class="section-heading">
+                <span>02</span>
+                <h2>Selected Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-icon">✦</div>
+
+                    <h3>Analytics Dashboard</h3>
+
+                    <p>
+                        A modern analytics dashboard with clean data
+                        visualization and responsive layouts.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <div class="project-icon">◈</div>
+
+                    <h3>SaaS Landing Page</h3>
+
+                    <p>
+                        A conversion-focused landing page designed for
+                        a modern software product.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>UI Design</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">03</div>
+
+                    <div class="project-icon">⌘</div>
+
+                    <h3>Developer Portfolio</h3>
+
+                    <p>
+                        A minimal portfolio website showcasing projects,
+                        skills and professional experience.
+                    </p>
+
+                    <div class="tags">
+                        <span>Responsive</span>
+                        <span>CSS</span>
+                        <span>Frontend</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills" class="section skills-section">
+
+            <div class="section-heading">
+                <span>03</span>
+                <h2>Skills & Tools</h2>
+            </div>
+
+            <div class="skills">
+
+                <div class="skill">
+                    <strong>HTML</strong>
+                    <span>95%</span>
+                    <div class="progress">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <strong>CSS</strong>
+                    <span>90%</span>
+                    <div class="progress">
+                        <div style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <strong>JavaScript</strong>
+                    <span>80%</span>
+                    <div class="progress">
+                        <div style="width:80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <strong>React</strong>
+                    <span>75%</span>
+                    <div class="progress">
+                        <div style="width:75%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="contact">
+
+            <span class="contact-label">04 — GET IN TOUCH</span>
+
+            <h2>
+                Have an idea?
+                <span>Let's build it.</span>
+            </h2>
+
+            <p>
+                I'm always interested in interesting projects,
+                collaborations and new opportunities.
+            </p>
+
+            <a href="mailto:hello@example.com" class="primary-btn">
+                hello@example.com →
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Devfolio. Built with HTML & CSS.
+        </p>
+
+        <div>
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </footer>
+
 </body>
 </html>
