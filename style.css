@@ -1,3 +1,4 @@
+
 /* =========================
    RESET
 ========================= */
@@ -14,8 +15,8 @@ html {
 
 body {
     font-family: "Inter", sans-serif;
-    background: #0d0f12;
-    color: #f4f4f5;
+    background: #f8f9fc;
+    color: #171923;
     line-height: 1.6;
 }
 
@@ -46,7 +47,7 @@ a {
 }
 
 .logo span {
-    color: #7c6cff;
+    color: #7563ed;
 }
 
 .navbar nav {
@@ -55,17 +56,17 @@ a {
 }
 
 .navbar nav a {
-    color: #999da7;
+    color: #696d7a;
     font-size: 14px;
     transition: 0.3s;
 }
 
 .navbar nav a:hover {
-    color: white;
+    color: #7563ed;
 }
 
 .nav-btn {
-    border: 1px solid #292c33;
+    border: 1px solid #dfe1e9;
     padding: 10px 18px;
     border-radius: 8px;
     font-size: 14px;
@@ -74,8 +75,9 @@ a {
 }
 
 .nav-btn:hover {
-    background: #fff;
-    color: #0d0f12;
+    background: #171923;
+    color: #fff;
+    border-color: #171923;
 }
 
 
@@ -102,19 +104,20 @@ a {
     padding: 7px 13px;
     margin-bottom: 25px;
 
-    border: 1px solid #292c33;
+    border: 1px solid #e1e3ec;
     border-radius: 30px;
+    background: #fff;
 
-    color: #a8abb3;
+    color: #666b78;
     font-size: 13px;
 }
 
 .status {
     width: 7px;
     height: 7px;
-    background: #5ee89a;
+    background: #21a568;
     border-radius: 50%;
-    box-shadow: 0 0 10px #5ee89a;
+    box-shadow: 0 0 8px rgba(33, 165, 104, 0.25);
 }
 
 .hero h1 {
@@ -126,14 +129,14 @@ a {
 }
 
 .hero h1 span {
-    color: #8b7cff;
+    color: #7563ed;
 }
 
 .hero-content > p {
     max-width: 570px;
     margin-top: 28px;
 
-    color: #969aa4;
+    color: #686d7b;
     font-size: 17px;
 }
 
@@ -159,22 +162,23 @@ a {
 }
 
 .primary-btn {
-    background: #8b7cff;
-    color: white;
+    background: #7563ed;
+    color: #fff;
 }
 
 .primary-btn:hover {
-    background: #7666ef;
+    background: #6250d8;
     transform: translateY(-2px);
 }
 
 .secondary-btn {
-    border: 1px solid #30333a;
-    color: #ddd;
+    border: 1px solid #dfe1e9;
+    color: #343746;
+    background: #fff;
 }
 
 .secondary-btn:hover {
-    background: #191c21;
+    background: #eeeff7;
 }
 
 
@@ -183,13 +187,12 @@ a {
 ========================= */
 
 .code-card {
-    background: #15181d;
-    border: 1px solid #292d35;
+    background: #fff;
+    border: 1px solid #e0e3ec;
 
     border-radius: 15px;
 
-    box-shadow:
-        0 25px 80px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 25px 70px rgba(35, 39, 70, 0.09);
 
     overflow: hidden;
 
@@ -204,20 +207,21 @@ a {
     align-items: center;
     gap: 7px;
 
-    border-bottom: 1px solid #292d35;
+    background: #f1f2f8;
+    border-bottom: 1px solid #e0e3ec;
 }
 
 .window-bar span {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #343840;
+    background: #c4c7d2;
 }
 
 .code {
     padding: 35px 30px;
 
-    color: #b8bbc3;
+    color: #4c5161;
     font-family: monospace;
     font-size: 14px;
     line-height: 2;
@@ -228,19 +232,19 @@ a {
 }
 
 .purple {
-    color: #c19cff;
+    color: #8851d5;
 }
 
 .yellow {
-    color: #f4ce72;
+    color: #b7791f;
 }
 
 .green {
-    color: #78d7a5;
+    color: #168052;
 }
 
 .blue {
-    color: #76b8ff;
+    color: #2563c7;
 }
 
 
@@ -263,7 +267,7 @@ a {
 }
 
 .section-heading span {
-    color: #8b7cff;
+    color: #7563ed;
     font-size: 13px;
     font-weight: 700;
 }
@@ -293,11 +297,11 @@ a {
 }
 
 .about-grid h3 span {
-    color: #8b7cff;
+    color: #7563ed;
 }
 
 .about-grid p {
-    color: #969aa4;
+    color: #686d7b;
     margin-bottom: 20px;
     max-width: 560px;
 }
@@ -319,16 +323,19 @@ a {
     min-height: 330px;
     padding: 28px;
 
-    background: #13161a;
-    border: 1px solid #292d34;
+    background: #fff;
+    border: 1px solid #e2e4ed;
     border-radius: 14px;
+
+    box-shadow: 0 5px 20px rgba(35, 39, 70, 0.025);
 
     transition: 0.3s;
 }
 
 .project-card:hover {
     transform: translateY(-6px);
-    border-color: #454052;
+    border-color: #c9c2fa;
+    box-shadow: 0 15px 35px rgba(60, 50, 130, 0.07);
 }
 
 .project-number {
@@ -336,7 +343,7 @@ a {
     top: 25px;
     right: 25px;
 
-    color: #555963;
+    color: #a4a7b3;
     font-size: 13px;
 }
 
@@ -351,8 +358,8 @@ a {
     margin-bottom: 30px;
 
     border-radius: 10px;
-    background: #1d1a31;
-    color: #9b8cff;
+    background: #f0edff;
+    color: #7563ed;
     font-size: 20px;
 }
 
@@ -362,7 +369,7 @@ a {
 }
 
 .project-card p {
-    color: #858992;
+    color: #686d7b;
     font-size: 14px;
 }
 
@@ -378,9 +385,9 @@ a {
     padding: 5px 9px;
 
     border-radius: 5px;
-    background: #1c1f24;
+    background: #f0f1f6;
 
-    color: #999da6;
+    color: #656979;
     font-size: 11px;
 }
 
@@ -388,7 +395,7 @@ a {
     position: absolute;
     bottom: 25px;
 
-    color: #a397ff;
+    color: #6955dc;
     font-size: 13px;
     font-weight: 600;
 }
@@ -399,7 +406,7 @@ a {
 ========================= */
 
 .skills-section {
-    border-top: 1px solid #202329;
+    border-top: 1px solid #e4e5ed;
 }
 
 .skills {
@@ -420,7 +427,7 @@ a {
     position: absolute;
     right: 0;
 
-    color: #777b84;
+    color: #777b89;
     font-size: 12px;
 }
 
@@ -432,13 +439,14 @@ a {
 
     overflow: hidden;
 
-    background: #24272d;
+    background: #e5e6ee;
     border-radius: 10px;
 }
 
 .progress div {
     height: 100%;
-    background: #8b7cff;
+    background: #7563ed;
+    border-radius: 10px;
 }
 
 
@@ -454,20 +462,20 @@ a {
 
     text-align: center;
 
-    border: 1px solid #292d34;
+    border: 1px solid #e1ddfa;
     border-radius: 18px;
 
     background:
         radial-gradient(
             circle at center,
-            #19172c 0,
-            #111317 45%,
-            #0d0f12 75%
+            #efedff 0,
+            #f6f5ff 45%,
+            #f8f9fc 80%
         );
 }
 
 .contact-label {
-    color: #8b7cff;
+    color: #6955dc;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -482,14 +490,14 @@ a {
 }
 
 .contact h2 span {
-    color: #8b7cff;
+    color: #7563ed;
 }
 
 .contact p {
     max-width: 500px;
     margin: 0 auto 30px;
 
-    color: #858992;
+    color: #686d7b;
 }
 
 
@@ -503,12 +511,12 @@ footer {
 
     padding: 30px 0;
 
-    border-top: 1px solid #202329;
+    border-top: 1px solid #e4e5ed;
 
     display: flex;
     justify-content: space-between;
 
-    color: #666a73;
+    color: #777b89;
     font-size: 12px;
 }
 
@@ -518,7 +526,7 @@ footer div {
 }
 
 footer a:hover {
-    color: white;
+    color: #7563ed;
 }
 
 
